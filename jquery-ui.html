@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>很好用的日历控件已整理直接可用</title>
+		<meta name="keywords" content="很好用的日历控件已整理直接可用，" />
+		<!-- basic styles -->
+		
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+		<!-- page specific plugin styles data style -->
+		<link rel="stylesheet" href="assets/css/jquery-ui-1.10.3.full.min.css" />
+		<!-- fonts -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+		<!-- ace styles -->
+		<link rel="stylesheet" href="assets/css/ace.min.css" />
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+		<!-- inline styles related to this page -->
+		<!-- ace settings handler -->
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+	
+		<div class="input-group ">
+		<input type="text" id="datepicker" class="form-control" style="width: 200px" />
+			<span class="btn btn-primary">
+			<i class="icon-calendar"></i>
+		</span>
+	</div>
+									
+		<!-- basic scripts -->
+		<!--[if !IE]> -->
+		<script src="assets/js/jquery-2.0.3.min.js"></script>
+		<!-- <![endif]-->
+		<!--[if IE]>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<![endif]-->
+		<!--[if !IE]> -->
+		<!-- <![endif]-->
+		<!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/typeahead-bs2.min.js"></script>
+		<!-- page specific plugin scripts -->
+		<script src="assets/js/jquery-ui-1.10.3.full.min.js"></script>
+	
+		<!-- ace scripts -->
+		<script src="assets/js/ace-elements.min.js"></script>
+		<script src="assets/js/ace.min.js"></script>
+		<!-- inline scripts related to this page -->
+		<script type="text/javascript">
+			jQuery(function($) {
+				$( "#datepicker" ).datepicker({
+					showOtherMonths: true,
+					selectOtherMonths: false,
+				});
+			})
+		</script>
+</body>
+</html>
